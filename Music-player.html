@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="player">
+
+            <p class="close" onclick="closePlayer()">
+                &#10006;
+            </p>
+
+            <div class="main-thumbnail">
+                <img class="main-thumbnail-img" src="images/blank space.jpg"/>
+            </div>
+
+            <div class="song-desc">
+                <h1 class="song-name">Song Name</h1>
+                <h3 class="song-artist">Artist Name</h3>
+            </div>
+            
+
+            <audio class="audio" controls loop></audio>
+
+
+        </div>
+
+       <div class="section">
+
+            <h1 class="title">Music Player</h1>
+
+            <div class="music-list" >
+
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="index.js"></script>
+</body>
+</html>
